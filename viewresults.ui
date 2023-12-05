@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>viewResults</class>
+ <widget class="QDialog" name="viewResults">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>537</width>
+    <height>682</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QTableWidget" name="tableWidget">
+     <row>
+      <property name="text">
+       <string>Модуль, m</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Число зубьев большего шкива, z1</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Число зубьев большего шкива, z2</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Делительные диаметры шкива, d1</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Делительные диаметры шкива, d2</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Межосевое расстояние, a</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Длина ремня, Lp</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Окончательное межосевое расстояние, a</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Угол обхвата ремнем малого шкива, alpha</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Число зубьев ремня, находящихся в зацеплении с меньшим шкивом, z0</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Скорость ремня, v</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Вращающий момент на ведущем валу, T1</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Окружная сила, Ft</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Допускаемая удельная сила, [F]</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Предварительное значение ширины ремня, b*</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Уточненное значение ширины ремня, b</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Сила предварительного натяжения ремня, F0</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Сила, действующая на валы, Fn</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Диаметры вершин шкивов, d1a</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Диаметры вершин шкивов, d2a</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Ширина шкива, B</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Окружной шаг шкива по средней линии зубьев, Ps1</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Окружной шаг шкива по средней линии зубьев, Ps2</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Значение</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
