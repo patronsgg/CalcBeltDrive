@@ -16,8 +16,6 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
-
 void MainWindow::on_pushButton_clicked()
 {
     std::vector<double> data;
@@ -25,6 +23,8 @@ void MainWindow::on_pushButton_clicked()
     double p = ui->lineEdit->text().toDouble();
     double n = ui->lineEdit_2->text().toDouble();
     double u = ui->lineEdit_3->text().toDouble();
+
+    qDebug() << p << n << u;
 
     if (p == 0 || n == 0 || u == 0) {
         qWarning("Невалидный ввод");
@@ -73,7 +73,6 @@ void MainWindow::on_pushButton_clicked()
     double p_s1 = (M_PI * (d_a1 - 4)) / z_1;
     double p_s2 = (M_PI * (d_a2 - 4)) / z_2;
 
-
     data.push_back(m);
     data.push_back(z_1);
     data.push_back(z_2);
@@ -98,8 +97,6 @@ void MainWindow::on_pushButton_clicked()
     data.push_back(p_s1);
     data.push_back(p_s2);
 
-
-
     viewResults table(data);
     table.setModal(true);
     table.setWindowTitle("Итог расчёта");
@@ -108,5 +105,3 @@ void MainWindow::on_pushButton_clicked()
         return;
     }
 }
-
-
